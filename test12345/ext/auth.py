@@ -1,8 +1,8 @@
 from flask_simplelogin import SimpleLogin
 from werkzeug.security import check_password_hash, generate_password_hash
 
-from project_name.ext.database import db
-from project_name.models import User
+from test12345.ext.database import db
+from test12345.models import User
 
 
 def verify_login(user):
